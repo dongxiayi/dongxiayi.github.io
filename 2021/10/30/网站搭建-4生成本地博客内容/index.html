@@ -22,7 +22,7 @@
 
   
 
-  <title>网站搭建-3搭建仓库 | 贪吃的小猫</title>
+  <title>网站搭建-4生成本地博客内容并发布到网上 | 贪吃的小猫</title>
 
   
 
@@ -45,7 +45,7 @@
 <!-- header container -->
 <header class="header-container post">
   
-    <div class="post-image" style="background-image: url(https://github.com/dongxiayi/dongxiayi.github.io/blob/main/photo/cat2.png?raw=true)"></div>
+    <div class="post-image" style="background-image: url(https://kyori.xyz/assets/wallpaper-2572384.jpg)"></div>
   
 
   <!-- navbar -->
@@ -94,11 +94,11 @@
     <div class="header-content">
       <div class="post-text layout-block">
         <div class="layout-margin">
-          <h1 class="title-wrap">网站搭建-3搭建仓库</h1>
+          <h1 class="title-wrap">网站搭建-4生成本地博客内容并发布到网上</h1>
           <h2 class="title-sub-wrap">
             <strong>冬夏</strong>
             <span>发布于</span>
-            <time  class="article-date" datetime="2021-10-29T15:10:14.000Z" itemprop="datePublished">2021-10-29</time>
+            <time  class="article-date" datetime="2021-10-30T04:33:30.000Z" itemprop="datePublished">2021-10-30</time>
           </h2>
           <ul class="wrap-list dark">
   
@@ -130,67 +130,70 @@
       
       <section class="article-entry markdown-body layout-margin content-padding--large soft-size--large soft-style--box">
         <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>由于本人前端和后端的代码基础不扎实，所以就用了最简单的github+hexo搭建网站</p>
-<h2 id=""><a href="#" class="headerlink" title=""></a></h2><h2 id="Github注册-登录方法"><a href="#Github注册-登录方法" class="headerlink" title="Github注册+登录方法"></a>Github注册+登录方法</h2><h2 id="文章目录"><a href="#文章目录" class="headerlink" title="文章目录"></a>文章目录</h2><ul>
-<li>1.github介绍</li>
-<li>2.使用步骤</li>
-<li>3.接收学长发过来的通知</li>
+<h2 id=""><a href="#" class="headerlink" title=""></a></h2><h2 id="一-生成本地内容"><a href="#一-生成本地内容" class="headerlink" title="一.生成本地内容"></a>一.生成本地内容</h2><ul>
+<li><p>1.在电脑的任意一个盘创建一个空白文件夹</p>
+</li>
+<li><p><img src="62.png"></p>
+</li>
+<li><p>2.之后再空白的地方鼠标右键选择<code>Git bash here</code> 因为之前我们安装过hexo了 所以这里就不用在安装了.直接输入<code>hexo init</code>这是初始化我们的hexo，如果这里出现<code>Something&#39;s wrong</code>就是因为网络不稳定重新在输入就ok</p>
+</li>
+<li><p><img src="63.png"></p>
+</li>
+<li><p>3.出现这写文件就代表你已经创建成功</p>
+</li>
+<li><p><img src="64.png"></p>
+</li>
+<li><p>4.在输入<code>hexo s</code> 来本地生成网站检查一下是否真的创建成功</p>
+</li>
+<li><p><img src="65.png"></p>
+</li>
+<li><p>5.登录<code>http://localhost:4000</code> 这样的界面就代表网站创建成功了,如果想要退出按<code>Ctrl c</code>就行了</p>
+</li>
+<li><p><img src="66.png"></p>
+</li>
 </ul>
-<h2 id="1-github介绍"><a href="#1-github介绍" class="headerlink" title="1.github介绍"></a>1.github介绍</h2><ul>
-<li>先说一下github是个什么东西，这是一个分布式管理平台，专门用来让程序员托管代码的，而现在我们要来完成如下几件事： </li>
-<li>1.注册</li>
-<li>2.验证登录</li>
-</ul>
-<h2 id="2-使用步骤"><a href="#2-使用步骤" class="headerlink" title="2.使用步骤"></a>2.使用步骤</h2><ul>
-<li>我们首先需要注册这个github号，进入如下网址：</li>
-<li>点击此处进入github官网</li>
-<li>进入看到的是如上页面。接下来点击sign up </li>
-<li><img src="https://github.com/dongxiayi/dongxiayi.github.io/blob/main/photo/40.png?raw=true"></li>
-<li>进来之后就开始注册你的信息了 建议这里输入自己的qq邮箱和自己的密码 用户名最好是英文名字</li>
-<li><img src="https://github.com/dongxiayi/dongxiayi.github.io/blob/main/photo/41.png?raw=true"></li>
-<li>在这里选择左边这个免费的 </li>
-<li><img src="https://github.com/dongxiayi/dongxiayi.github.io/blob/main/photo/42.png?raw=true"></li>
-<li><img src="https://github.com/dongxiayi/dongxiayi.github.io/blob/main/photo/43.png?raw=true"></li>
-<li><img src="https://github.com/dongxiayi/dongxiayi.github.io/blob/main/photo/44.png?raw=true"></li>
-<li>点击进入qq邮箱：点击此处进入qq邮箱 进来之后用你们的qq直接登录就可以了</li>
-<li>进入邮箱的收件箱点击github发给你的消息，以此确定完成了你的github注册功能！！！</li>
-<li>我们现在回到页面来进行登录我们的github了</li>
-<li><img src="https://github.com/dongxiayi/dongxiayi.github.io/blob/main/photo/45.png?raw=true"></li>
-<li>看到这个界面就代表你的github登录成功</li>
-<li><img src="https://github.com/dongxiayi/dongxiayi.github.io/blob/main/photo/46.png?raw=true"></li>
-</ul>
-<h2 id="仓库搭建"><a href="#仓库搭建" class="headerlink" title="仓库搭建"></a>仓库搭建</h2><h3 id="我们为什么要搭建仓库，我们的内容是不是要装到一个远程的服务器，所以我们就要利用github上面的仓库作为我们的远程服务器-白嫖党万岁-然后将hexo博客的内容装到这个github的服务器上"><a href="#我们为什么要搭建仓库，我们的内容是不是要装到一个远程的服务器，所以我们就要利用github上面的仓库作为我们的远程服务器-白嫖党万岁-然后将hexo博客的内容装到这个github的服务器上" class="headerlink" title="我们为什么要搭建仓库，我们的内容是不是要装到一个远程的服务器，所以我们就要利用github上面的仓库作为我们的远程服务器(白嫖党万岁!).然后将hexo博客的内容装到这个github的服务器上"></a>我们为什么要搭建仓库，我们的内容是不是要装到一个远程的服务器，所以我们就要利用github上面的仓库作为我们的远程服务器(白嫖党万岁!).然后将hexo博客的内容装到这个github的服务器上</h3><h2 id="搭建过程"><a href="#搭建过程" class="headerlink" title="搭建过程"></a>搭建过程</h2><ul>
-<li>1.在github的页面上找到左侧的new按钮(一个绿色的)</li>
-<li><img src="https://github.com/dongxiayi/dongxiayi.github.io/blob/main/photo/47.png?raw=true"></li>
-<li>2.我们要一定记住我们的github用户名、注册的邮箱和密码，后面会用有</li>
-<li><img src="https://github.com/dongxiayi/dongxiayi.github.io/blob/main/photo/48.png?raw=true"></li>
-<li>3.这里填写的Repository name一定要填你注册github时的用户名，然后后面同意加上.github.io的后缀地址，之后再选择下面的Add a README file选项 这是一个阅读的文件</li>
-<li><img src="https://github.com/dongxiayi/dongxiayi.github.io/blob/main/photo/49.png?raw=true"></li>
-<li>4.显示这样的页面就代表建设成功了</li>
-<li><img src="https://github.com/dongxiayi/dongxiayi.github.io/blob/main/photo/50.png?raw=true"></li>
-</ul>
-<h2 id="SSH-keys密钥生成"><a href="#SSH-keys密钥生成" class="headerlink" title="SSH keys密钥生成"></a>SSH keys密钥生成</h2><h3 id="建好仓库之后我们需要建立一个关联的工作，将本地和github进行一个绑定，这个时候就需要用SSH"><a href="#建好仓库之后我们需要建立一个关联的工作，将本地和github进行一个绑定，这个时候就需要用SSH" class="headerlink" title="建好仓库之后我们需要建立一个关联的工作，将本地和github进行一个绑定，这个时候就需要用SSH"></a>建好仓库之后我们需要建立一个关联的工作，将本地和github进行一个绑定，这个时候就需要用SSH</h3><h2 id="配置过程"><a href="#配置过程" class="headerlink" title="配置过程"></a>配置过程</h2><ul>
-<li>1.我们进到自己电脑的任意一个文件夹右击空白处，选择Git bash here</li>
-<li><img src="https://github.com/dongxiayi/dongxiayi.github.io/blob/main/photo/51.png?raw=true"></li>
-<li>2.我们在输入一个ssh看看有无建立，因为之前在搭建git的时候自己带了有一个ssh</li>
-<li><img src="https://github.com/dongxiayi/dongxiayi.github.io/blob/main/photo/52.png?raw=true"></li>
-<li>3.生成<code>ssh:  ssh-keygen -t rsa -C&quot;邮件地址 这是我们注册时的qq邮箱地址&quot;</code>  这里出现选项直接按4次回车就行</li>
-<li><img src="https://github.com/dongxiayi/dongxiayi.github.io/blob/main/photo/53.png?raw=true"></li>
-<li>4.之后就在我们本地建立了一个ssh的文件夹(这个文件夹在c盘\用户\Administortar或者user  这里我电脑是ASUS)</li>
-<li><img src="https://github.com/dongxiayi/dongxiayi.github.io/blob/main/photo/54.png?raw=true"></li>
-<li>5.右击<code>id_rsa.pub</code>这个文件，选择NotePad++打开(这里我是安装了的 所以大家得自己安装notpad),之后再<code>ctrl+A</code>全选复制下来</li>
-<li><img src="https://github.com/dongxiayi/dongxiayi.github.io/blob/main/photo/55.png?raw=true"></li>
-<li>6.在打开我们的github，选择我们的setting选项</li>
-<li><img src="https://github.com/dongxiayi/dongxiayi.github.io/blob/main/photo/56.png?raw=true"></li>
-<li>7.选择ssh and GPG keys 在点击右边的new ssh key</li>
-<li><img src="https://github.com/dongxiayi/dongxiayi.github.io/blob/main/photo/57.png?raw=true"></li>
-<li>8.这里面的title你可以随便起名字，但是这个key一定是刚刚复制下来的rsa</li>
-<li><img src="https://github.com/dongxiayi/dongxiayi.github.io/blob/main/photo/58.png?raw=true"></li>
-<li>9.这样就代表安装成功了</li>
-<li><img src="https://github.com/dongxiayi/dongxiayi.github.io/blob/main/photo/59.png?raw=true"></li>
-<li>10.然后在确定ssh是否绑定成功: <code>ssh -T git@github.com</code>  这里就原封不动的复制下来</li>
-<li><img src="https://github.com/dongxiayi/dongxiayi.github.io/blob/main/photo/60.png?raw=true"></li>
-<li>这里会显示这个 输入yes就OK了 因为我这里安装过 所以没有出现，出现sucessful就代表成功了</li>
-<li><img src="https://github.com/dongxiayi/dongxiayi.github.io/blob/main/photo/61.png?raw=true"></li>
+<h2 id="二-上传到网上"><a href="#二-上传到网上" class="headerlink" title="二.上传到网上"></a>二.上传到网上</h2><ul>
+<li>1.右击打开<code>_config.yml</code>选择用notepad打开</li>
+<li><img src="67.png"></li>
+<li>2.拉到第16行修改我们的地址</li>
+<li><img src="88.png"></li>
+<li>3.在拉到最下面 在deploy的下面创建<code>repository</code>和<code>branch</code></li>
+<li><img src="68.png"></li>
+<li>4.在type后面填写<code>git</code>,branch后面填写<code>main</code>,repository后面填写自己的github仓库的地址比如我这里是<code>https://github.com/dongxiayi/dongxiayi1.github.io.git</code>。这三个后面空格一下在输入，填写完之后再保存</li>
+<li><img src="69.png"></li>
+<li><img src="70.png"></li>
+<li>4.回到文件件后右键打开Git bash here，输入<code>npm install hexo-deployer-git --save</code>这是安装hexo-deployer-git自动部署发布工具</li>
+<li><img src="71.png"></li>
+<li>5.输入<code>hexo g</code>这是生成页面的命令，在输入<code>hexo d</code>这是上传的命令</li>
+<li><img src="72.png"></li>
+<li><img src="73.png"></li>
+<li>6.这里可能会<code>hexo d</code>不成功  会出现这样报错。这里是配置github的邮箱和用户，因为我之前弄过所以没有报出，所以就输入<code>git config --global user.email &quot;你注册时的qq邮箱&quot;</code>和<code>git config --global user.name &quot;你注册时的用户名&quot;</code></li>
+<li><img src="74.png"></li>
+<li><img src="75.png"></li>
+<li>7.弄完之后会出现这个界面，输入注册时的用户名</li>
+<li><img src="76.png"></li>
+<li>8.这个时候会让我们输入密码，我们就不要输入自己的密码。改用令牌来使用</li>
+<li><img src="77.png"></li>
+<li>9.我们要设置自己的令牌回到github主页选择<code>setting</code>，</li>
+<li><img src="78.png"></li>
+<li>10.选择<code>Developer settings</code></li>
+<li><img src="79.png"></li>
+<li>11.选择<code>Personal access tokens</code> ，在创建自己的令牌在右边选择<code>Generate new token</code></li>
+<li><img src="80.png"></li>
+<li>12.这里的<code>Note</code>随便起个名字，下面的<code>Select scopes</code>的选项建议大家都勾选</li>
+<li><img src="81.png"></li>
+<li>13.创建成功之后，会出现这个序列号，直接复制</li>
+<li><img src="82.png"></li>
+<li>14.在将这一串的序列号复制到刚刚的要输入的密码</li>
+<li><img src="83.png"></li>
+<li>15.成功之后就会发现我们的仓库会出现一堆文件，这就代表上传成功</li>
+<li><img src="84.png"></li>
+<li>16.如果想登陆自己所创建的网站</li>
+<li><img src="85.png"></li>
+<li>17.在<code>Settings</code>中找取，</li>
+<li><img src="86.png"></li>
+<li>18.拉到最下面点击这个<code>Check it out here!</code>就会出现博客的地址</li>
+<li><img src="87.png"></li>
 </ul>
 
       </section>
@@ -199,30 +202,16 @@
       
         <nav class="article-nav">
           
-            <div class="article-nav-item layout-padding">
-  <article class="card-container article-nav-card content-padding--primary soft-size--large soft-style--box">
-    
-    <div class="card-text">
-      
-        <a href="/2021/10/30/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA-4%E7%94%9F%E6%88%90%E6%9C%AC%E5%9C%B0%E5%8D%9A%E5%AE%A2%E5%86%85%E5%AE%B9/" itemprop="url">
-          <h2 class="card-text--title text-ellipsis">网站搭建-4生成本地博客内容并发布到网上</h2>
-        </a>
-      
-      <div class="card-text--row">Newer</div>
-    </div>
-  </article>
-</div>
-          
           
             <div class="article-nav-item layout-padding">
   <article class="card-container article-nav-card content-padding--primary soft-size--large soft-style--box">
     
-      <div class="card-cover" background-image-lazy data-img="https://github.com/dongxiayi/dongxiayi.github.io/blob/main/photo/cat.png?raw=true"></div>
+      <div class="card-cover" background-image-lazy data-img="https://github.com/dongxiayi/dongxiayi.github.io/blob/main/photo/cat2.png?raw=true"></div>
     
     <div class="card-text">
       
-        <a href="/2021/10/28/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA-%E5%89%8D%E6%9C%9F%E9%85%8D%E7%BD%AEGit/" itemprop="url">
-          <h2 class="card-text--title text-ellipsis">网站搭建-2前期配置Git</h2>
+        <a href="/2021/10/29/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA-3%E6%90%AD%E5%BB%BA%E4%BB%93%E5%BA%93/" itemprop="url">
+          <h2 class="card-text--title text-ellipsis">网站搭建-3搭建仓库</h2>
         </a>
       
       <div class="card-text--row">Older</div>
